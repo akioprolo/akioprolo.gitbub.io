@@ -1,4 +1,39 @@
- <?php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galaktik 2277 Light Loop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2c003e;
+            color: #fff;
+            text-align: center;
+        }
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #fff;
+        }
+        th {
+            background-color: #000;
+        }
+        td {
+            background-color: #444;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Galaktik 2277 Light Loop</h1>
+    </header>
+
+    <?php
 
     function getLightDayName($index) {
         $_map = array(
@@ -188,3 +223,5 @@
     echo $DROP;
 
     ?>
+</body>
+</html>
